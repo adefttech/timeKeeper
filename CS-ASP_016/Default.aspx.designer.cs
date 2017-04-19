@@ -67,6 +67,60 @@ namespace CS_ASP_016 {
         protected global::System.Web.UI.WebControls.Button selectedWeekButton;
         
         /// <summary>
+        /// arrayTextBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox arrayTextBox1;
+        
+        /// <summary>
+        /// arrayTextBox2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox arrayTextBox2;
+        
+        /// <summary>
+        /// arrayTextBox3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox arrayTextBox3;
+        
+        /// <summary>
+        /// arrayTextBox4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox arrayTextBox4;
+        
+        /// <summary>
+        /// arrayAddButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button arrayAddButton;
+        
+        /// <summary>
+        /// arrayRetrieveButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button arrayRetrieveButton;
+        
+        /// <summary>
         /// resultLabel control.
         /// </summary>
         /// <remarks>

@@ -37,5 +37,33 @@ namespace CS_ASP_016
         {
             resultLabel.Text = "Week Of " + myCalendar.SelectedDate.ToShortDateString();
         }
+
+        protected void showTiffanyButton_Click(object sender, EventArgs e)
+        {
+            resultLabel.Text = "Hello Tiff!";
+        }
+
+        protected void arrayAddButton_Click(object sender, EventArgs e)
+        {
+            string[] arValues = new string[5];
+            arValues[0] = arrayTextBox1.Text;
+            arValues[1] = arrayTextBox2.Text;
+            arValues[2] = arrayTextBox3.Text;
+            arValues[3] = arrayTextBox4.Text;
+            ViewState.Add("myValues", arValues);
+
+            resultLabel.Text = "Values Successfully Added";
+        }
+
+        protected void arrayRetrieveButton_Click(object sender, EventArgs e)
+        {
+            string[] values = (string[])ViewState["myValues"];
+            arrayTextBox4.Text = values[0];
+            arrayTextBox3.Text = values[1];
+            arrayTextBox2.Text = values[2];
+            arrayTextBox1.Text = values[3];
+
+
+        }
     }
 }

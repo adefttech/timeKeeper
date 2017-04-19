@@ -29,7 +29,15 @@
 &nbsp;<asp:Button ID="selectedWeekButton" runat="server" Text="Selected Week" OnClick="selectedWeekButton_Click" />
         </p>
         <p>
-            &nbsp;</p>
+            <asp:TextBox ID="arrayTextBox1" runat="server"></asp:TextBox>
+&nbsp;<asp:TextBox ID="arrayTextBox2" runat="server"></asp:TextBox>
+&nbsp;<asp:TextBox ID="arrayTextBox3" runat="server"></asp:TextBox>
+&nbsp;<asp:TextBox ID="arrayTextBox4" runat="server"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Button ID="arrayAddButton" runat="server" OnClick="arrayAddButton_Click" Text="Add" />
+&nbsp;<asp:Button ID="arrayRetrieveButton" runat="server" OnClick="arrayRetrieveButton_Click" Text="Retrieve" />
+        </p>
         <p>
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </p>
