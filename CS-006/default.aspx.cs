@@ -11,17 +11,19 @@ namespace CS_006
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                double[] hours = new double[0];
+                ViewState.Add("Hours", hours);
+            }
 
         }
 
-        protected void submitButton_Click(object sender, EventArgs e)
+        protected void addButton_Click(object sender, EventArgs e)
         {
-            string workDay = dateTextbox.Text.ToString();
-            string hoursWorked = hoursTextbox.Text.ToString();
-            string displayMessage = "Sonny, welcome to your time tracker. Today you entered time for the " +
-                "following dates." + workDay + " you entered " + hoursWorked + " hours worked.";
+            double[] hours = (double[])ViewState["Hours"];
 
-            displayLabel.Text = displayMessage;
+            Array.Resize(ref hours, hours.Length + 1);
         }
     }
 }

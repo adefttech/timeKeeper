@@ -12,14 +12,14 @@
             Enter date worked and how many hours for that day.</p>
         <p>
             Date:&nbsp;
-            <asp:TextBox ID="dateTextbox" runat="server"></asp:TextBox>
+            <asp:TextBox ID="dateTextbox" runat="server" OnTextChanged="dateTextbox_TextChanged"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp; Hours worked:&nbsp;
             <asp:TextBox ID="hoursTextbox" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="submitButton" runat="server" OnClick="submitButton_Click" Text="Submit Time" />
+            <asp:Button ID="addButton" runat="server" OnClick="submitButton_Click" Text="Add Time" />
         </p>
-        <asp:Label ID="displayLabel" runat="server" Text="..."></asp:Label>
+        <asp:Label ID="resultLabel" runat="server" Text="..."></asp:Label>
     </form>
 </body>
 </html>

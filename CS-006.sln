@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spy Game", "Spy Game\Spy Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-ASP_016", "CS-ASP_016\CS-ASP_016.csproj", "{24C0C77A-5FF3-4099-BB6A-58E4BEE3B51E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-ASP_022", "CS-ASP_022\CS-ASP_022.csproj", "{E28AE4FC-C713-4FD1-87E5-F67795281D5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{24C0C77A-5FF3-4099-BB6A-58E4BEE3B51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C0C77A-5FF3-4099-BB6A-58E4BEE3B51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C0C77A-5FF3-4099-BB6A-58E4BEE3B51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28AE4FC-C713-4FD1-87E5-F67795281D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28AE4FC-C713-4FD1-87E5-F67795281D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28AE4FC-C713-4FD1-87E5-F67795281D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28AE4FC-C713-4FD1-87E5-F67795281D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
