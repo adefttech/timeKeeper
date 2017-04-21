@@ -24,6 +24,21 @@ namespace CS_006
             double[] hours = (double[])ViewState["Hours"];
 
             Array.Resize(ref hours, hours.Length + 1);
+
+            int newestItem = hours.GetUpperBound(0);
+            hours[newestItem] = double.Parse(hoursTextbox.Text);
+
+            ViewState["Hours"] = hours;
+            resultLabel.Text = string.Format("Total Hours: {0}<br/>" +
+                                              "Most Hours: {1}<br/>" +
+                                              "Least Hours: {2}<br/>" +
+                                              "Average Hours: {3}<br/>",
+                                              hours.Sum(), 
+                                              hours.Max(),
+                                              hours.Min(),
+                                              hours.Average());
+                                              
         }
+ 
     }
 }
